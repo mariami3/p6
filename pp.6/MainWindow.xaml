@@ -1,0 +1,100 @@
+﻿<Window x:Class="pp._6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pp._6"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="453" Width="593">
+    <Grid RenderTransformOrigin="0.512,0.457">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="303*"/>
+            <ColumnDefinition Width="290*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="201*"/>
+            <RowDefinition Height="236*"/>
+        </Grid.RowDefinitions>
+
+        <Button Content="👈(ﾟヮﾟ👈)" HorizontalAlignment="Left" Margin="26,22,0,0" VerticalAlignment="Top" Height="49" Width="84" Background="#FFE9FF00"/>
+        <DatePicker x:Name="data" Margin="217,32,217,130" Grid.ColumnSpan="3"/>
+        <Button Content="(👉ﾟヮﾟ)👉" HorizontalAlignment="Left" Margin="178,22,0,0" VerticalAlignment="Top"  Height="49" Width="84" Background="#FFE9FF00" Grid.Column="2"/>
+        <Label Content="Выбор действия:" HorizontalAlignment="Left" Margin="40,0,0,0" VerticalAlignment="Center" Height="25" Width="102"/>
+        <Label Grid.Column="2" Content="Что вы сегодня делали?" HorizontalAlignment="Center" Margin="0,83,0,0" VerticalAlignment="Top" Height="26" Width="142"/>
+
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="70" Margin="26,126,0,0">
+            <Grid>
+                <Image Source="/bathroom.jpg" Stretch="Fill"/>
+                <TextBlock Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White"/>
+            </Grid>
+        </Button>
+        <!-- Кнопка 2 -->
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="70" Margin="26,201,0,0" Grid.RowSpan="2">
+            <Grid>
+                <Image Source="/food.jpg" Stretch="Fill"/>
+                <TextBlock Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White"/>
+            </Grid>
+        </Button>
+
+        <!-- Кнопка 3 -->
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="76" Height="70" Margin="26,75,0,0" Grid.Row="1">
+            <Grid>
+                <Image Source="/work_1469954357.jpg" Stretch="Fill"/>
+                <TextBlock Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White"/>
+            </Grid>
+        </Button>
+
+
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="70" Margin="142,150,0,0" Grid.Row="1">
+            <Grid>
+                <Image Source="/Путешествие-на-поезде.jpg" Stretch="Fill"/>
+                <TextBlock Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White"/>
+            </Grid>
+        </Button>
+
+        <!-- Кнопка 3 -->
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="70" Margin="26,75,0,0" Grid.Row="1">
+            <Grid>
+                <Image Source="/work_1469954357.jpg" Stretch="Fill"/>
+                <TextBlock Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White"/>
+            </Grid>
+        </Button>
+
+        <!-- Кнопка 4 -->
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="70" Margin="26,150,0,0" Grid.Row="1">
+            <Grid>
+                <Image Source="/Без названия (2).png" Stretch="Fill"/>
+                <TextBlock Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White"/>
+            </Grid>
+        </Button>
+
+        <!-- Кнопка 5 -->
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="70" Margin="142,201,0,0" Grid.RowSpan="2">
+            <Grid>
+                <Image Source="/8a6b1da27b6dd05f72c03e1482a0.jpg" Stretch="Fill"/>
+                <TextBlock Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White"/>
+            </Grid>
+        </Button>
+
+        <!-- Кнопка 6 -->
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="70" Margin="142,126,0,0">
+            <Grid>
+                <Image Source="/images (2).jpg" Stretch="Fill"/>
+                <TextBlock Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White"/>
+            </Grid>
+        </Button>
+
+        <!-- Кнопка 7 -->
+        <Button HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="70" Margin="142,75,0,0" Grid.Row="1">
+            <Grid>
+                <Image Source="/3048abaf69cf15967fb2abe484256fe4.jpg" Stretch="Fill"/>
+                <TextBlock Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White"/>
+            </Grid>
+        </Button>
+
+
+    </Grid>
+
+
+
+</Window>
